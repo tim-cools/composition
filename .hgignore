@@ -1,7 +1,0 @@
-syntax: regexp
-^_ReSharper.Console/     #root folder
-^TestResults/     #root folder
-bin/
-obj/
-
-
