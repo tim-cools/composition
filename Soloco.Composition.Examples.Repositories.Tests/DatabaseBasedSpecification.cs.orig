@@ -1,0 +1,47 @@
+﻿using NHibernate;
+
+using Microsoft.Practices.Unity;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Soloco.Composition.Example.Repositories.Tests
+{
+    [TestClass]
+    public abstract class DatabaseBasedSpecification : UnitSpecification
+    {
+        private ITransaction _transaction;
+
+        public ISession Session { get; private set;  }
+        public CompositionContainer Container { get; private set; }
+
+        protected override void Arrange()
+        {
+            base.Arrange();
+
+            CreateUnityContainer();
+            OpenDatabase();
+        }
+
+        private void CreateUnityContainer()
+        {
+            Container = CompositionContainerFactory.Create();
+        }
+
+        private void OpenDatabase()
+        {
+            Session = Container.Resolve<ISession>();
+            _transaction = Session.BeginTransaction();
+        }
+
+        protected override void CleanUp()
+        {
+            base.CleanUp();
+
+            CloseDatabase();
+        }
+
+        private void CloseDatabase()
+        {
+            _transaction.Rollback();
+        }
+    }
+}

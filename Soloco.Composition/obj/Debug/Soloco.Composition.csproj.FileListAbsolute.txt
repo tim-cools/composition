@@ -1,0 +1,14 @@
+D:\Data\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.dll
+D:\Data\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.pdb
+D:\Data\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.dll.CodeAnalysisLog.xml
+D:\Data\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.dll.lastcodeanalysissucceeded
+D:\Data\Development\Composition\Soloco.Composition\obj\Debug\ResolveAssemblyReference.cache
+D:\Data\Development\Composition\Soloco.Composition\obj\Debug\Soloco.Composition.dll
+D:\Data\Development\Composition\Soloco.Composition\obj\Debug\Soloco.Composition.pdb
+D:\NMBS\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.dll
+D:\NMBS\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.pdb
+D:\NMBS\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.dll.CodeAnalysisLog.xml
+D:\NMBS\Development\Composition\Soloco.Composition\bin\Debug\Soloco.Composition.dll.lastcodeanalysissucceeded
+D:\NMBS\Development\Composition\Soloco.Composition\obj\Debug\ResolveAssemblyReference.cache
+D:\NMBS\Development\Composition\Soloco.Composition\obj\Debug\Soloco.Composition.dll
+D:\NMBS\Development\Composition\Soloco.Composition\obj\Debug\Soloco.Composition.pdb

@@ -1,0 +1,46 @@
+- Builder 
+  x methods
+    - return type
+    - parameters
+      - ref
+      - value
+      - our/ref parameters
+
+  - generics
+    - open => closed composition parts
+    - open => closed composed objects
+    - methods with there own generic arguments
+    - generic wt nested generic parameters
+
+  X nested type 
+
+  x interface inheritance
+    - normal
+    - shared base interface
+
+- injector
+  - injection of base interfaces ?
+  - circular injection
+  - self injection
+
+- DI
+  - Get Policy from container
+  - Check injection of IUnitContainer ?
+
+- NDepend
+
+- Test 
+  - Policy with mocking
+
+- Pex 
+  - ArgumentNullExceptions
+  - 
+
+- 
+ 
+ 
+
+
+- Question Anything...
+  -> Apply to yourself ...
+- Marketing!!!
